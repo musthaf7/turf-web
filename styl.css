@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(23, 23,23,0.15);
+    padding: 20px;
+    position: absolute;
+    top: 0%;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin: auto;
+}
+header a {
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.719);
+    letter-spacing: 1px;
+    font-family: Tahoma;
+    
+
+}
+.banner-condainer .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.banner-condainer{
+    padding-top: 100px;
+    background: linear-gradient(rgba(78, 74, 146, 0.849),rgb(158, 92, 89)),url(images/yiqun-tang-3o7O_6fi7Qc-unsplash.jpg);
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.left-section{
+    width: 600px;
+    margin-top: -278px;
+    
+}
+.left-section h1{
+    margin: 0%;
+    color: aliceblue;
+    font-size: 50px;
+}
+.left-section p{
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: color-mix(in hsl shorter hue, white 70%, rgb(2, 2, 3) 50%);
+}
+.left-section button{
+    
+    color: rgb(41, 66, 88);
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 9px 25px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+}
+.left-section button:hover{
+    background-color: rgb(154, 154, 158);
+}
+/*Right section*/
+.right-section{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-shadow: 0 5px 6px rgba(0, 0,0,0.219);
+}
+.right-section h4{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(4, 35, 74);
+}
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.input-group input {
+    color: rgb(41, 66, 88);
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 9px 25px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.submit-button{
+    width: 236px;
+    height: 30px;
+    border-radius: 34px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5efef;
+    background-color: #4d448f;
+    margin-top: 5px;
+    margin-left: 63px;
+}
+.submit-button:hover{
+    background-color:rgb(102, 113, 163);
+}
+/*RIGHT END*/
+/*section-two*/
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(rgba(158, 156, 190, 0.849),rgb(158, 92, 89)),url(images/yiqun-tang-3o7O_6fi7Qc-unsplash.jpg);
+}
+.card-condainer{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px rgb(77, 73, 73);
+    overflow: hidden;
+    text-align: center;
+}
+.card-condainer h1{
+    color: rgb(136,136,136);
+}
+.image-condainer{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+.image-condainer img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.image-condainer img:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+/*section-two*/
+footer{
+    margin: 0%;
+    color: aliceblue;
+    font-size: 15px;
+    background: linear-gradient(rgba(133, 91, 93, 0.849),rgb(158, 92, 89)),url(images/yiqun-tang-3o7O_6fi7Qc-unsplash.jpg);
+}
+footer span{
+    text-align: center;
+    color: skyblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 600px;
+    
+}
